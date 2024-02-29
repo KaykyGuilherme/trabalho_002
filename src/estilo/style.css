@@ -240,6 +240,12 @@ img{
 }
 
 .headline__text button{
+    margin-top: 1rem;
+    background: none;
+    border: none;
+}
+
+.headline__text a{
     background: var(--btn);
     color: var(--white__1);
     border: none;
@@ -250,9 +256,8 @@ img{
     transition: .2s;
 }
 
-.headline__text button:hover{
+.headline__text a:hover{
     background: var(--btn__hover);
-    transform: scale(1.1);
     box-shadow: 0 0 1rem rgb(0 0 0 /.2);
 }
 
