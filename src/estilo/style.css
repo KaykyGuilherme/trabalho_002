@@ -12,6 +12,11 @@ a{
     text-decoration: none;
 }
 
+a[href^="tel"] {
+    color: inherit;  /* muda a cor para a cor herdada */
+    text-decoration: none;  /* remove o sublinhado */
+}
+
 button{
     cursor: pointer;
 }
@@ -302,8 +307,7 @@ img{
     linear-gradient(rgb(0 0 0 / .4), rgb(0 0 0 / .4)),
     url(../img/wallpaper__2.png)
     no-repeat
-    center/cover
-    fixed;
+    center/cover;
     padding: 1rem;
     display: flex;
     flex-flow: row wrap;

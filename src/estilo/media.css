@@ -1,4 +1,12 @@
 @media screen and (min-width: 900px) {
+    .dados__user{
+        background:   
+        url(../img/wallpaper__2.png)
+        no-repeat
+        fixed
+        center/cover;;
+    }
+
     .esquadria__img{
         width: 40rem;
     }
