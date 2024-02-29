@@ -14,3 +14,17 @@ headerALL.navItem.forEach(btn => {
         headerALL.navALL.classList.toggle('header__active')
     })
 });
+
+const oberservar = new IntersectionObserver((elemento) =>{
+    elemento.forEach(elementoVerdadeiro => {
+        if(elementoVerdadeiro.isIntersecting){
+            elementoVerdadeiro.target.classList.add('visto')
+        }
+    })
+})
+
+const oberservados = document.querySelectorAll('.oberservados');
+
+oberservados.forEach(elemento =>{
+    oberservar.observe(elemento)
+})

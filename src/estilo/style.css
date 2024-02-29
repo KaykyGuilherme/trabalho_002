@@ -545,3 +545,12 @@ footer p{
     margin-top: 1rem;
     color: var(--white__1);
 }
+
+.oberservados{
+    transition: .6s;
+    transform: translateX(-100%);
+}
+
+.visto{
+    transform: translateX(0%);
+}
