@@ -1,0 +1,10 @@
+@media screen and (min-width: 900px) {
+    .esquadria__img{
+        width: 40rem;
+    }
+
+    .espelhos__img img{
+        transition: .2s;
+        width: 40rem;
+    }
+}
