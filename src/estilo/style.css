@@ -49,7 +49,7 @@ html{
 
 body{
     height: 100vh;
-    background: seagreen;
+    background: var(--white__1);
 }
 
 
