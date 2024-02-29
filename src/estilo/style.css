@@ -121,7 +121,7 @@ img{
     }
 
     .manu__mobile{
-        width: 4rem;
+        width: 2.8rem;
         border-top: 4px solid var(--cor__principal);
         display: block;
         cursor: pointer;
